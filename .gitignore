@@ -9,6 +9,21 @@
 !.yarn/plugins
 !.yarn/releases
 !.yarn/versions
+# Node/Next
+node_modules
+.next
+out
+dist
+
+# Env / secrets
+.env
+.env.local
+.env.*.local
+
+# OS/Editor
+.DS_Store
+*.log
+.vscode
 
 # testing
 /coverage
